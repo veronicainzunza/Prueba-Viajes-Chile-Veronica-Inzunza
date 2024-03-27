@@ -1,0 +1,93 @@
+.encabezado{
+    border: 1px solid black;
+    /*width: 980px;*/
+    /*height: 80px;*/
+}
+
+.mifondo{
+    background-color: #289AA5;
+}
+
+.imagen{
+    border: 1px solid black;
+    max-height: 500px; /* Establecer la altura máxima del contenedor del carrusel */
+    overflow: hidden; /* Ocultar el contenido que exceda la altura máxima */
+}
+
+.carousel-item img {
+    height: 100%; /* Establecer la altura de las imágenes del carrusel al 100% */
+    width: auto; /* Permitir que el ancho de las imágenes se ajuste automáticamente */
+  }
+
+.tres{
+    background-color:black ;
+}
+.titulo{
+    text-align: center;
+    color: aliceblue;
+}
+.avion{
+    display: inline-block;
+    vertical-align: top; 
+    width: 30%;
+}
+.triangulo{
+    display: inline-block;
+    vertical-align: top; 
+    width: 30%;
+}
+.linea{
+    display: inline-block;
+    vertical-align: top; 
+    width: 30%;
+}
+
+p{
+    color: white;
+}
+
+.somos{
+    border: 1px solid white;
+    height: 400px;
+}
+
+.destaca{
+    border: 1px solid white;
+    height: 400px;
+    display: flex; /* Utilizar flexbox para colocar las tarjetas en línea */
+    justify-content: space-between; /* Distribuir el espacio entre las tarjetas */
+}
+
+
+.card {
+    /*flex: 0 0 auto; /* Permitir que las tarjetas mantengan su ancho original */
+    width: 15rem; /* Establecer un ancho fijo para las tarjetas */
+    background-color: #0DCAF0;
+    margin: 10px; /* Establecer el margen entre las tarjetas */
+}
+
+.contact{
+    border: 1px solid white;
+    height: 400px;
+}
+
+.contact label {
+    color: white; /* Cambiar el color del texto de los labels a blanco */
+  }
+
+.contact .btn-primary {
+    margin-top: 10px; /* Agregar un espacio de separación de 10px arriba del botón */
+  }
+
+.pie{
+    border: 1px solid black;
+    height: 80px;
+    background-color: #289AA5;
+}
+
+#text{
+    text-align: left;
+    color: aliceblue;
+    margin-left: 100px;
+    margin-top: 20px;
+}
