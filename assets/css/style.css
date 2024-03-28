@@ -1,15 +1,9 @@
-.encabezado{
-    border: 1px solid black;
-    /*width: 980px;*/
-    /*height: 80px;*/
-}
-
 .mifondo{
     background-color: #289AA5;
 }
 
 .imagen{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     max-height: 500px; /* Establecer la altura máxima del contenedor del carrusel */
     overflow: hidden; /* Ocultar el contenido que exceda la altura máxima */
 }
@@ -47,12 +41,12 @@ p{
 }
 
 .somos{
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     height: 400px;
 }
 
 .destaca{
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     height: 400px;
     display: flex; /* Utilizar flexbox para colocar las tarjetas en línea */
     justify-content: space-between; /* Distribuir el espacio entre las tarjetas */
@@ -67,7 +61,7 @@ p{
 }
 
 .contact{
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     height: 400px;
 }
 
