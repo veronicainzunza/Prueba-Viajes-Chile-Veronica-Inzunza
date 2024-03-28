@@ -79,15 +79,16 @@ p{
     margin-top: 10px; /* Agregar un espacio de separación de 10px arriba del botón */
   }
 
-.pie{
-    border: 1px solid black;
-    height: 80px;
-    background-color: #289AA5;
+/*footer*/
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #289AA5;
+    color: white;
+    padding: 20px
 }
 
-#text{
-    text-align: left;
-    color: aliceblue;
-    margin-left: 100px;
-    margin-top: 20px;
+i {
+    font-size: 30px
 }
+
